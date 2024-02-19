@@ -41,11 +41,12 @@ export default function page() {
 
   return (
     <div>
+      <h1 className="text-center text-2xl font-semibold">Video Watermarking</h1>
       <div className="flex gap-5 justify-center my-10">
         <div className="flex flex-col items-center justify-center">
           <FileInput
             handleChange={handleFileChange1}
-            accept=".mp3,.ogg"
+            accept=".mp4,.mpeg"
             id="file_upload1"
             iconText={
               <>

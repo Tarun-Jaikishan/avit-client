@@ -41,11 +41,12 @@ export default function page() {
 
   return (
     <div>
+      <h1 className="text-center text-2xl font-semibold">Audio Watermarking</h1>
       <div className="flex gap-5 justify-center my-10">
         <div className="flex flex-col items-center justify-center">
           <FileInput
             handleChange={handleFileChange1}
-            accept=".mp3,.ogg"
+            accept=".mp3,.wav"
             id="file_upload1"
             iconText={
               <>
@@ -70,7 +71,7 @@ export default function page() {
         <div className="flex flex-col items-center justify-center">
           <FileInput
             handleChange={handleFileChange2}
-            accept=".jpeg,.jpg,.png"
+            accept=".mp3,.wav"
             id="file_upload2"
             iconText={
               <>

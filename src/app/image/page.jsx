@@ -41,6 +41,7 @@ export default function page() {
 
   return (
     <div>
+      <h1 className="text-center text-2xl font-semibold">Image Watermarking</h1>
       <div className="flex gap-5 justify-center my-10">
         <div className="flex flex-col items-center justify-center">
           <FileInput
